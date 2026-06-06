@@ -37,21 +37,6 @@ public class Plugin : BaseUnityPlugin {
         return null; // Return null if load failed
     }
 
-    internal static GameObject FindNestedObject(GameObject baseObject, string path) {
-        Transform t = baseObject.transform;
-        string[] pathItems = path.Split("/");
-        for (int i = 0; i < pathItems.Length; i++) {
-            string itemStr = pathItems[i];
-            t = t.transform.Find(itemStr);
-            if (t == null) {
-                Log.LogWarning(itemStr + " not found for object path " + baseObject.name + "/" + path);
-                return null;
-            }
-        }
-
-        return t.gameObject;
-    }
-
     private void Awake() {
         Log = Logger;
 
