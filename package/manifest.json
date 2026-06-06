@@ -1,0 +1,10 @@
+{
+    "name": "RubiksPrisons",
+    "author": "end_4",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/end-4/ultrakill-rubiks-prisons",
+    "description": "Turn Flesh Prison/Panopticon into Rubik's puzzles",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}
