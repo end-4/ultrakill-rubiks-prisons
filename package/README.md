@@ -1,5 +1,7 @@
 Makes Flesh Prison/Panopticon Rubik's puzzles
 
+I hope we get a dodecahedron or an icosahedron for P-3...
+
 <img alt="rubiks_prison_thumbnail" src="https://github.com/user-attachments/assets/ae23b6db-e512-4499-995d-5dd164a8e52b" />
 
 ## Attribution
